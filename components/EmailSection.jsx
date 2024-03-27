@@ -1,5 +1,4 @@
 
-/* eslint-disable react/no-unescaped-entities */
 export default function EmailSection() {
   return (
     <section className="bg-[#ced3ca] py-5 lg:py-16">
@@ -9,7 +8,7 @@ export default function EmailSection() {
         </h1>
         <p className="text-center text-sm lg:text-base">
           Sign up for new product drops, behind-the-scenes content, and monthly
-          "5 Things I'm Digging" emails
+          5 Things I'm Digging emails
         </p>
         <form action="#" className="mb-5">
           <input
