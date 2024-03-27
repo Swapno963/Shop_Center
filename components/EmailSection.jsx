@@ -1,3 +1,5 @@
+
+/* eslint-disable react/no-unescaped-entities */
 export default function EmailSection() {
   return (
     <section className="bg-[#ced3ca] py-5 lg:py-16">
