@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js E-commerce Project
+
+Welcome to our Next.js E-commerce Project repository! This project is developed for product showcasin, hear we have various features essential for an e-commerce platform.
+
+## Live Site
+
+Check out the live site [here](https://your-live-site-url.com).
+## Project Overview
+
+In this project, we aim to build a robust e-commerce platform using Next.js, a powerful React framework known for its server-side rendering capabilities and excellent developer experience. Our goal is to create a seamless and responsive user experience while adhering to modern web development best practices.
+
+## Key Features
+
+- **Product Showcase**: Display 12 products on the home page to provide users with a glimpse of available offerings.
+- **Product Details**: Enable users to view detailed information about each product, including name, category, rating, price, discounted price, and description. Multiple images of the product will also be showcased.
+- **Category Navigation**: Implement category navigation, allowing users to explore products based on different categories.
+- **Category Pages**: Show all products belonging to a selected category on dedicated category pages.
+- **Responsive Design**: Ensure a smooth and visually appealing experience across various devices and screen sizes.
+- **Structured Data**: Retrieve product data from a structured JSON list to maintain consistency and facilitate efficient data management.
+
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `components/`: Contains reusable React components used throughout the application.
+- `pages/`: Houses Next.js pages responsible for routing and rendering UI components.
+- `public/`: Stores static assets such as images and fonts.
+- `api/`: Hosts the structured JSON list and accompanying API documentation.
 
 ## Getting Started
 
-First, run the development server:
+To set up and run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Install project dependencies using your preferred package manager:
+   ```bash
+   npm install
+   # or
+   yarn install

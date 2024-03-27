@@ -21,8 +21,9 @@ export default function DetailProduct({ productId }) {
             />
 
             <div className="flex gap-4 mt-4">
-              {product.images.map((img) => (
+              {product.images.map((img,index) => (
                 <img
+                key={index}
                   src={img}
                   className="w-[100px] h-[100px] mx-auto border object-cover"
                   alt=""
@@ -41,8 +42,9 @@ export default function DetailProduct({ productId }) {
               </Link>
             </span>
             <div className="mt-3 flex items-center justify-start gap-1">
-              {showRatingImge(product.rating).map((img) => (
+              {showRatingImge(product.rating).map((img,index ) => (
                 <img
+                key={index}
                   width={10}
                   height={20}
                   src={`/${img}`}
