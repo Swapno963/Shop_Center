@@ -22,7 +22,9 @@ export default function DetailProduct({ productId }) {
 
             <div className="flex gap-4 mt-4">
               {product.images.map((img,index) => (
-                <img
+                <Image
+                width={220}
+              height={220}
                 key={index}
                   src={img}
                   className="w-[100px] h-[100px] mx-auto border object-cover"
