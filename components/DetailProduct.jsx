@@ -45,7 +45,7 @@ export default function DetailProduct({ productId }) {
             </span>
             <div className="mt-3 flex items-center justify-start gap-1">
               {showRatingImge(product.rating).map((img,index ) => (
-                <img
+                <Image
                 key={index}
                   width={10}
                   height={20}
