@@ -4,7 +4,7 @@ Welcome to our Next.js E-commerce Project repository! This project is developed 
 
 ## Live Site
 
-Check out the live site [here](https://your-live-site-url.com).
+Check out the live site [here](https://shop-center-red.vercel.app/).
 ## Project Overview
 
 In this project, we aim to build a robust e-commerce platform using Next.js, a powerful React framework known for its server-side rendering capabilities and excellent developer experience. Our goal is to create a seamless and responsive user experience while adhering to modern web development best practices.
